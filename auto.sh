@@ -24,6 +24,8 @@ CMD="openclaw onboard --install-daemon"
   printf "\r";   sleep 2    # 回车
   
   printf "\e[C"; sleep 2    # 右
+
+  printf "\r";   sleep 2
   
   printf "\r"               # 最后的确认回车
 ) | $CMD
